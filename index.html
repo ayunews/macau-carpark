@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="澳門公共停車場即時空位、地圖搜尋及停車費用模擬。"
+    />
+    <meta name="theme-color" content="#f4f5f1" />
+    <title>泊車澳門 · 即時車位與計費</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="泊車澳門首頁">
+          <span class="brand-mark">
+            <i data-lucide="circle-parking" aria-hidden="true"></i>
+          </span>
+          <span class="brand-copy">
+            <strong>泊車澳門</strong>
+            <small>DSAT 即時車位</small>
+          </span>
+        </a>
+
+        <div class="topbar-actions">
+          <div id="sourceStatus" class="source-status" data-state="loading" aria-live="polite">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>正在載入資料</span>
+          </div>
+          <button
+            id="simulatorButton"
+            class="primary-button topbar-simulator"
+            type="button"
+          >
+            <i data-lucide="calculator" aria-hidden="true"></i>
+            <span>模擬計費</span>
+          </button>
+          <button
+            id="refreshButton"
+            class="icon-button"
+            type="button"
+            title="重新整理"
+            aria-label="重新整理"
+          >
+            <i data-lucide="refresh-cw" aria-hidden="true"></i>
+          </button>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <section class="control-band" aria-label="搜尋及篩選">
+          <label class="search-field" for="searchInput">
+            <i data-lucide="search" aria-hidden="true"></i>
+            <input
+              id="searchInput"
+              type="search"
+              autocomplete="off"
+              placeholder="搜尋停車場、街道或出入口"
+            />
+            <button
+              id="clearSearch"
+              class="search-clear"
+              type="button"
+              title="清除搜尋"
+              aria-label="清除搜尋"
+              hidden
+            >
+              <i data-lucide="x" aria-hidden="true"></i>
+            </button>
+          </label>
+
+          <label class="select-field">
+            <span>區域</span>
+            <select id="regionFilter">
+              <option value="all">全部</option>
+              <option value="澳門">澳門</option>
+              <option value="氹仔">氹仔</option>
+              <option value="路環">路環</option>
+            </select>
+          </label>
+
+          <label class="select-field">
+            <span>排序</span>
+            <select id="sortSelect">
+              <option value="distance">最近</option>
+              <option value="availability">最多空位</option>
+              <option value="fee">最低估算費用</option>
+              <option value="name">名稱</option>
+            </select>
+          </label>
+
+          <label class="check-field">
+            <input id="onlyAvailable" type="checkbox" />
+            <span>只顯示有空位</span>
+          </label>
+        </section>
+
+        <section class="vehicle-band" aria-label="車種及顯示模式">
+          <div
+            id="vehicleSwitch"
+            class="vehicle-switch"
+            role="tablist"
+            aria-label="車種"
+          ></div>
+          <div
+            id="viewSwitch"
+            class="view-switch"
+            role="tablist"
+            aria-label="顯示模式"
+          >
+            <button
+              class="view-option is-active"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              data-action="mode"
+              data-mode="nearby"
+            >
+              <i data-lucide="navigation" aria-hidden="true"></i>
+              <span>附近</span>
+            </button>
+            <button
+              class="view-option"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-action="mode"
+              data-mode="list"
+            >
+              <i data-lucide="list" aria-hidden="true"></i>
+              <span>清單</span>
+            </button>
+            <button
+              class="view-option"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-action="mode"
+              data-mode="map"
+            >
+              <i data-lucide="map" aria-hidden="true"></i>
+              <span>地圖</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="estimate-band" aria-label="計費比較">
+          <label class="check-field estimate-toggle">
+            <input id="compareEnabled" type="checkbox" checked />
+            <span>顯示計費比較</span>
+          </label>
+          <label class="estimate-field">
+            <span>入場</span>
+            <input id="compareEntry" type="datetime-local" />
+          </label>
+          <label class="estimate-field">
+            <span>離場</span>
+            <input id="compareExit" type="datetime-local" />
+          </label>
+          <div id="compareSummary" class="estimate-summary"></div>
+        </section>
+
+        <section class="metric-band" aria-label="即時統計">
+          <div class="metric-cell">
+            <span class="metric-icon"><i data-lucide="circle-parking" aria-hidden="true"></i></span>
+            <div>
+              <strong id="metricAvailable">—</strong>
+              <span>可用車位</span>
+            </div>
+          </div>
+          <div class="metric-cell">
+            <span class="metric-icon"><i data-lucide="parking-meter" aria-hidden="true"></i></span>
+            <div>
+              <strong id="metricParks">—</strong>
+              <span>符合結果</span>
+            </div>
+          </div>
+          <div class="metric-cell">
+            <span class="metric-icon"><i data-lucide="circle-slash-2" aria-hidden="true"></i></span>
+            <div>
+              <strong id="metricFull">—</strong>
+              <span>已滿場站</span>
+            </div>
+          </div>
+          <div class="metric-cell">
+            <span class="metric-icon"><i data-lucide="route" aria-hidden="true"></i></span>
+            <div>
+              <strong id="metricDistance">—</strong>
+              <span>最近距離</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="nearbyPanel" class="view-panel" aria-label="附近停車場">
+          <div id="nearbyContext"></div>
+          <div id="nearbyResults" class="results-list"></div>
+        </section>
+
+        <section id="listPanel" class="view-panel" aria-label="停車場清單" hidden>
+          <div class="list-heading">
+            <h2>停車場清單</h2>
+            <span id="listSummary">—</span>
+          </div>
+          <div id="listResults" class="results-list"></div>
+        </section>
+
+        <section id="mapPanel" class="view-panel map-layout" aria-label="停車場地圖" hidden>
+          <div class="map-frame">
+            <div id="map" aria-label="停車場地圖"></div>
+            <div id="mapFallback" class="map-fallback" hidden>
+              <i data-lucide="map" aria-hidden="true"></i>
+              <strong>地圖服務暫時無法載入</strong>
+              <span>清單搜尋仍可正常使用</span>
+            </div>
+            <div id="mapEmpty" class="map-empty" hidden>
+              <i data-lucide="map-pin-off" aria-hidden="true"></i>
+              <strong>沒有符合條件的座標</strong>
+            </div>
+          </div>
+          <aside class="map-results-pane" aria-label="地圖結果">
+            <div id="mapLocationContext"></div>
+            <div class="list-heading">
+              <h2>此地圖範圍</h2>
+              <span id="mapSummary">—</span>
+            </div>
+            <div id="mapResults" class="results-list is-map-list"></div>
+          </aside>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>
+          資料來源：澳門特別行政區政府數據開放平台及交通事務局公開即時資訊。
+          本網站為非官方工具，只作參考，實際收費以現場及官方公布為準。
+        </p>
+        <a
+          href="https://data.gov.mo/Detail?id=ea50a770-cc35-47cc-a3ba-7f60092d4bc4"
+          target="_blank"
+          rel="noreferrer"
+        >
+          查看官方資料集
+          <i data-lucide="external-link" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </div>
+
+    <dialog id="detailDrawer" class="detail-drawer">
+      <div id="detailContent" class="drawer-content"></div>
+    </dialog>
+
+    <dialog id="simulatorDialog" class="simulator-dialog">
+      <form id="simulatorForm" class="simulator-form">
+        <header class="dialog-header">
+          <div>
+            <span class="eyebrow">按官方收費文字估算</span>
+            <h2>停車費用模擬</h2>
+          </div>
+          <button
+            id="closeSimulator"
+            class="icon-button"
+            type="button"
+            title="關閉"
+            aria-label="關閉計費模擬"
+          >
+            <i data-lucide="x" aria-hidden="true"></i>
+          </button>
+        </header>
+
+        <div id="simulatorParkContext" class="simulator-park-context"></div>
+
+        <div class="simulator-fields">
+          <label class="form-field form-field-wide">
+            <span>停車場</span>
+            <select id="simulatorPark" required></select>
+          </label>
+
+          <label class="form-field">
+            <span>車輛</span>
+            <select id="simulatorVehicle" required></select>
+          </label>
+
+          <label id="simulatorVariantField" class="form-field" hidden>
+            <span>收費方案</span>
+            <select id="simulatorVariant"></select>
+          </label>
+
+          <label class="form-field">
+            <span>入場</span>
+            <input id="simulatorEntry" type="datetime-local" required />
+          </label>
+
+          <label class="form-field">
+            <span>離場</span>
+            <input id="simulatorExit" type="datetime-local" required />
+          </label>
+        </div>
+
+        <section class="simulator-result" aria-live="polite">
+          <div class="result-amount">
+            <span>估算費用</span>
+            <strong id="simulatorAmount">—</strong>
+            <small id="simulatorDuration">—</small>
+          </div>
+          <p id="simulatorMessage" class="result-message" hidden></p>
+          <div id="simulatorBreakdown" class="breakdown-list"></div>
+        </section>
+
+        <details id="simulatorSource" class="source-disclosure"></details>
+
+        <footer class="dialog-footer">
+          <p>
+            估算不包括未列於官方文字的優惠、推廣或特殊安排；跨日及封頂規則以官方最終計算為準。
+          </p>
+          <div class="dialog-footer-actions">
+            <button id="applyComparison" class="secondary-button" type="button">
+              <i data-lucide="list-filter" aria-hidden="true"></i>
+              <span>套用到列表比較</span>
+            </button>
+            <button class="primary-button" type="submit">
+              <i data-lucide="calculator" aria-hidden="true"></i>
+              <span>重新計算</span>
+            </button>
+          </div>
+        </footer>
+      </form>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

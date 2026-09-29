@@ -1,0 +1,5685 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-29T16:09:31.338Z",
+    "sourceUpdatedAt": "2026-09-30 00:09:16",
+    "sourceName": "澳門特別行政區政府數據開放平台",
+    "sourceUrl": "https://data.gov.mo/Detail?id=ea50a770-cc35-47cc-a3ba-7f60092d4bc4",
+    "liveApiUrl": "https://dsat.apigateway.data.gov.mo/car_park_maintance",
+    "detailApiUrl": "https://dsat.apigateway.data.gov.mo/car_park_detail",
+    "liveDatasetId": "ea50a770-cc35-47cc-a3ba-7f60092d4bc4",
+    "detailDatasetId": "ac55c2f1-780a-4dc8-875f-851b2203b706",
+    "legacyCapacitySourceUrl": "https://m.dsat.gov.mo/carpark_detail.aspx",
+    "totalCarparks": 92,
+    "matchedCoordinates": 92,
+    "newCarparks": 0,
+    "schemaVersion": 2
+  },
+  "carparks": [
+    {
+      "id": 6033,
+      "name": "下環街市",
+      "officialName": "下環街市停車場",
+      "englishName": "S. Lourenco Market Parking Complex",
+      "portugueseName": "Auto-Silo do Mercado de S. Lourenço",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:48",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 58,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 57,
+          "total": 64,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 3,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 10,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於下環街市停車場內之停車場",
+      "entrance": "定位於貨倉街、李加祿街及下環街的下環街市市政綜合大樓內的停車場 (資料由市政署提供)",
+      "phone": "2842 3303",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "下環區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "(日間)首小時MOP$3，隨後每半小時MOP$5.\n(夜間)MOP$4",
+        "heavy": "-",
+        "motorcycle": "首小時MOP$1，隨後每小時MOP$2",
+        "notes": "（輕型汽車)日間普通票，於日間時段進入停車場之首一小時或不足一小時為澳門幣三元，隨後每半小時或不足半小時為澳門幣五元;\n夜間普通票，每小時或不足一小時為澳門幣四元。\n（重型及輕型摩托車）首一小時或不足一小時為澳門幣一元，隨後每小時或不足一小時為澳門幣兩元。\n(資料由市政署提供)"
+      },
+      "coordinate": {
+        "lat": 22.190831,
+        "lng": 113.534661,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6033"
+    },
+    {
+      "id": 7095,
+      "name": "山茶街公共停車場",
+      "officialName": "山茶街公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rua das Camélias",
+      "portugueseName": "Parque de Estacionamento Público da Rua das Camélias",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:12",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 124,
+          "total": 128,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "heavyUnder7m": {
+          "available": 4,
+          "total": 51,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "heavyOver7m": {
+          "available": 8,
+          "total": 21,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於青洲河邊馬路、山茶街及青洲新馬路交界的一塊戶外用地",
+      "entrance": "重型及輕型貨車的入口設於青洲河邊馬路及山茶街，而出口設於山茶街，重型及輕型摩托車的入口及出口則均設於青洲河邊馬路",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": null,
+        "heavy": "長度不超過5米的重型及輕型貨車\n(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5\n長度超過5米的重型及輕型貨車\n(日間)每半小時MOP$5\n(夜間) 每半小時MOP$2.5",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n長度不超過5米的重型及輕型貨車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n長度超過5米的重型及輕型貨車：日間普通票，每半小時或不足半小時為澳門幣5元。夜間普通票，每半小時或不足半小時為澳門幣2.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n重型及輕型貨車在每連續二十四小時內的泊車費用上限為澳門元60元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.212983,
+        "lng": 113.536181,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7095"
+    },
+    {
+      "id": 7090,
+      "name": "巴波沙大馬路公共停車場",
+      "officialName": "巴波沙大馬路公共停車場",
+      "englishName": "Parque de Estacionamento Público da Avenida de Artur Tamagnini Barbosa",
+      "portugueseName": "Parque de Estacionamento Público da Avenida de Artur Tamagnini Barbosa",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:08",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 2,
+          "total": 27,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 13,
+          "total": 42,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於巴波沙大馬路、台山中街、李寶椿街及巴波沙巷之間一塊戶外用地",
+      "entrance": "入口及出口均設於巴波沙巷",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.21197,
+        "lng": 113.54736,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7090"
+    },
+    {
+      "id": 6041,
+      "name": "日昇樓",
+      "officialName": "日昇樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Iat Seng",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Iat Seng",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:45",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 105,
+          "total": 292,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 221,
+          "total": 315,
+          "feeBadge": "日夜",
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 27,
+          "total": 29,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 7,
+          "total": 15,
+          "feeBadge": "日夜",
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於氹仔東北馬路社會房屋日昇樓內的停車場",
+      "entrance": "入口及出口均設於聚龍街",
+      "phone": "2831 0141",
+      "heightLimit": "2.00",
+      "locality": "氹仔",
+      "district": "大學及北安灣區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5\n日間封頂MOP$12\n夜間封頂MOP$6",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n重型及輕型摩托車在每連續日間普通票及夜間普通票的泊車時間內按上款計算的泊車費用上限分別為澳門元12元及澳門元6元。"
+      },
+      "coordinate": {
+        "lat": 22.163642,
+        "lng": 113.56061,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6041"
+    },
+    {
+      "id": 7051,
+      "name": "日暉大廈",
+      "officialName": "日暉大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Iat Fai",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Iat Fai",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:57",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 2,
+          "total": 59,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 98,
+          "total": 132,
+          "feeBadge": "日夜",
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 3,
+          "total": 6,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 9,
+          "total": 15,
+          "feeBadge": "日夜",
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於氹仔聚龍街日暉大廈內的停車場",
+      "entrance": "入口及出口均設於聚龍街",
+      "phone": "2870 1029",
+      "heightLimit": "2.00",
+      "locality": "氹仔",
+      "district": "大學及北安灣區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5\n日間封頂MOP$12\n夜間封頂MOP$6",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n重型及輕型摩托車在每連續日間普通票及夜間普通票的泊車時間內按上款計算的泊車費用上限分別為澳門元12元及澳門元6元。"
+      },
+      "coordinate": {
+        "lat": 22.163747,
+        "lng": 113.560235,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7051"
+    },
+    {
+      "id": 7067,
+      "name": "台暉樓",
+      "officialName": "台暉樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Toi Fai",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Toi Fai",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:08",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 1,
+          "total": 105,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 37,
+          "total": 119,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 4,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 10,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於台山中街、花地瑪教會街、青洲大馬路/青洲新路及蘇沙醫生街之間的台暉樓內的停車場",
+      "entrance": "入口及出口均設於花地瑪教會街",
+      "phone": "2855 6810",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.21089,
+        "lng": 113.54623,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7067"
+    },
+    {
+      "id": 6022,
+      "name": "永寧街",
+      "officialName": "永寧街停車場",
+      "englishName": "Auto-Silo da Rua da Tranquilidade",
+      "portugueseName": "Auto-Silo da Rua da Tranquilidade",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 58,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 26,
+          "total": 93,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 2,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 0,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "永寧經屋地下",
+      "entrance": "入口及出口均設于永寧街",
+      "phone": "2842 6013",
+      "heightLimit": "1.85",
+      "locality": "澳門",
+      "district": "黑沙環及祐漢區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.213038,
+        "lng": 113.553445,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6022"
+    },
+    {
+      "id": 6018,
+      "name": "氹仔中央公園",
+      "officialName": "氹仔中央公園公共停車場",
+      "englishName": "Parque de Estacionamento Público do Parque Central da Taipa",
+      "portugueseName": "Parque de Estacionamento Público do Parque Central da Taipa",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:09",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 194,
+          "total": 1343,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 958,
+          "total": 1371,
+          "feeBadge": "日夜",
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 103,
+          "total": 138,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 14,
+          "total": 35,
+          "feeBadge": "日夜",
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 14,
+          "total": 14,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "氹仔中央公園地下",
+      "entrance": "兩個入口及出口設於成都街及哥英布拉街",
+      "phone": "28835360/28835395",
+      "heightLimit": "2.00",
+      "locality": "氹仔",
+      "district": "氹仔中心區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5\n日間封頂MOP$12\n夜間封頂MOP$6",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n重型及輕型摩托車在每連續日間普通票及夜間普通票的泊車時間內按上款計算的泊車費用上限分別為澳門元12元及澳門元6元。"
+      },
+      "coordinate": {
+        "lat": 22.159096,
+        "lng": 113.554459,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6018"
+    },
+    {
+      "id": 7044,
+      "name": "氹仔客運碼頭",
+      "officialName": "氹仔客運碼頭公共停車場",
+      "englishName": "Parque de Estacionamento Público do Terminal Marítimo de Passageiros da Taipa",
+      "portugueseName": "Parque de Estacionamento Público do Terminal Marítimo de Passageiros da Taipa",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:08",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 423,
+          "total": 740,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 88,
+          "total": 196,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 72,
+          "total": 75,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 14,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 16,
+          "total": 16,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "氹仔客運碼頭前地地下",
+      "entrance": "入口及出口均設於氹仔客運碼頭前的街道",
+      "phone": "2885 1100",
+      "heightLimit": "2.00",
+      "locality": "氹仔",
+      "district": "北安及大潭山區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.163001,
+        "lng": 113.57784,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7044"
+    },
+    {
+      "id": 7076,
+      "name": "氹仔柯維納馬路停車場",
+      "officialName": "氹仔柯維納馬路停車場",
+      "englishName": "Parque de Estacionamento da Estrada Governador Albano de Oliveira da Taipa",
+      "portugueseName": "Parque de Estacionamento da Estrada Governador Albano de Oliveira da Taipa",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:55",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 34,
+          "total": 105,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於氹仔柯維納馬路交通樞紐地下",
+      "entrance": "設於靠近名門世家一側的柯維納馬路",
+      "phone": null,
+      "heightLimit": "4.00",
+      "locality": "氹仔",
+      "district": "氹仔舊城及馬場區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n當車輛連續泊車超過停車場規定之泊車時間上限，其後（即由連續停泊第九日起）每半小時或不足半小時收取雙倍的泊車費用"
+      },
+      "coordinate": {
+        "lat": 22.15742,
+        "lng": 113.54476,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7076"
+    },
+    {
+      "id": 7097,
+      "name": "田畔街公共停車場",
+      "officialName": "田畔街公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rua de Entre-Campos",
+      "portugueseName": "Parque de Estacionamento Público da Rua de Entre-Campos",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:53",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 6,
+          "total": 40,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 11,
+          "total": 46,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "澳門半島田畔街的一塊戶外用地",
+      "entrance": "入口及出口均設於澳門半島田畔街",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "下環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$4\n(夜間) 每半小時MOP$2",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣4元。夜間普通票，每半小時或不足半小時為澳門幣2元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.200229,
+        "lng": 113.540749,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7097"
+    },
+    {
+      "id": 6026,
+      "name": "交通事務局大樓",
+      "officialName": "交通事務局大樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício da Direcção dos Serviços para os Assuntos de Tráfego",
+      "portugueseName": "Parque de Estacionamento Público do Edifício da Direcção dos Serviços para os Assuntos de Tráfego",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:10",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 73,
+          "total": 148,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 138,
+          "total": 178,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 9,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 6,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "交通事務局大樓1F~4F",
+      "entrance": "入口及出口均設於新雅馬路",
+      "phone": "2857 2012",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "望廈及水塘區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.203975,
+        "lng": 113.55362,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6026"
+    },
+    {
+      "id": 7065,
+      "name": "污水處理站",
+      "officialName": "污水處理站停車場",
+      "englishName": "Auto-Silo da ETAR",
+      "portugueseName": "Auto-Silo da ETAR",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:53",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 86,
+          "total": 276,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 13,
+          "total": 14,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "heavyUnder7m": {
+          "available": 116,
+          "total": 250,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "heavyOver7m": {
+          "available": 110,
+          "total": 202,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "黑沙環新填海區之污水處理站旁",
+      "entrance": "出口及入口均設於勞動節大馬路",
+      "phone": "2876 3564",
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "黑沙環新填海區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "MOP$8(日間)\nMOP$4(夜間)\n(註1)\nMOP$10(日間)\nMOP$5(夜間)\n(註2)",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n註1：小型公共汽車及長度不超過7 米和總重量不超過7 公噸的重型車輛。\n註2：公共汽車及其他重型車輛。"
+      },
+      "coordinate": {
+        "lat": 22.20797,
+        "lng": 113.558418,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7065"
+    },
+    {
+      "id": 6028,
+      "name": "何賢公園",
+      "officialName": "何賢公園停車場",
+      "englishName": "Auto-Silo Jardim Comendador Ho Yin",
+      "portugueseName": "Auto-Silo Jardim Comendador Ho Yin",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:09",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 273,
+          "total": 415,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 503,
+          "total": 542,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 26,
+          "total": 27,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 46,
+          "total": 50,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "何賢公園下面",
+      "entrance": "出口及入口均設於宋玉生廣場",
+      "phone": "2870 0176",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "新口岸區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.192484,
+        "lng": 113.548941,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6028"
+    },
+    {
+      "id": 6005,
+      "name": "宋玉生廣場",
+      "officialName": "宋玉生廣場停車場",
+      "englishName": "Auto-Silo da Alameda Dr. Carlos d’Assumpção",
+      "portugueseName": "Auto-Silo da Alameda Dr. Carlos d’Assumpção",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:09",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 497,
+          "total": 716,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 22,
+          "total": 30,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 7,
+          "total": 7,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "宋玉生公園下面",
+      "entrance": "出口及入口均設於宋玉生廣場",
+      "phone": "2875 7924",
+      "heightLimit": "1.90",
+      "locality": "澳門",
+      "district": "外港及南灣湖新填海區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.18941,
+        "lng": 113.550893,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6005"
+    },
+    {
+      "id": 7057,
+      "name": "快盈大廈",
+      "officialName": "快盈大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Fai Ieng",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Fai Ieng",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:53",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 13,
+          "total": 121,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 32,
+          "total": 107,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 7,
+          "total": 8,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 12,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於俾若翰街快盈大廈內之停車場",
+      "entrance": "入口及出口均設於筷子基街",
+      "phone": "2830 8390",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "筷子基區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.206975,
+        "lng": 113.539811,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7057"
+    },
+    {
+      "id": 7072,
+      "name": "快富樓A入口",
+      "officialName": "快富樓公共停車場A入口",
+      "englishName": "Parque de Estacionamento Público do Edifício Fai Fu Acesso A",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Fai Fu Acesso A",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:11",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 71,
+          "total": 152,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 19,
+          "total": 22,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "筷子基社會房屋快富樓內",
+      "entrance": "入口及出口均設於俾若翰街",
+      "phone": "2822 7145",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "筷子基區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.20684,
+        "lng": 113.53889,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7072"
+    },
+    {
+      "id": 7073,
+      "name": "快富樓B入口",
+      "officialName": "快富樓公共停車場B入口",
+      "englishName": "Parque de Estacionamento Público do Edifício Fai Fu Acesso B",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Fai Fu Acesso B",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:11",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 3,
+          "total": 44,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 95,
+          "total": 189,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 3,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "筷子基社會房屋快富樓內",
+      "entrance": "入口及出口均設於筷子基巷",
+      "phone": "2822 7145",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "筷子基區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.20655,
+        "lng": 113.53873,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7073"
+    },
+    {
+      "id": 6038,
+      "name": "快達樓",
+      "officialName": "快達樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Fai Tat",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Fai Tat",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:09",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 96,
+          "total": 259,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 45,
+          "total": 228,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 4,
+          "total": 16,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 6,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於筷子基社會房屋快達樓內的停車場",
+      "entrance": "入口及出口均設於俾若翰街",
+      "phone": "2822 6617",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "筷子基區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.207792,
+        "lng": 113.543053,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6038"
+    },
+    {
+      "id": 7063,
+      "name": "李加祿街",
+      "officialName": "李加祿街公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rua de João Lecaros",
+      "portugueseName": "Parque de Estacionamento Público da Rua de João Lecaros",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:13",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 46,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 10,
+          "total": 56,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 1,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 6,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於李加祿街、木瓜圍及貨倉街之間的大廈內的停車場",
+      "entrance": "入口及出口均設於木瓜圍",
+      "phone": "2883 0613",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "下環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.191565,
+        "lng": 113.534707,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7063"
+    },
+    {
+      "id": 7055,
+      "name": "沙梨頭街市市政綜合大樓",
+      "officialName": "沙梨頭街市市政綜合大樓停車場",
+      "englishName": "Car Park of Municipal Market Complex of Patane (Auto-Silo do Complexo Municipal do Mercado do Patane)",
+      "portugueseName": "Auto-Silo do Complexo Municipal do Mercado do Patane",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:54",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 62,
+          "total": 118,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 76,
+          "total": 215,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 6,
+          "total": 12,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 6,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "沙梨頭街市市政綜合大樓第三層至第七層",
+      "entrance": "入口及出口均設於爹美刁施拿地大馬路(資料由市政署提供)",
+      "phone": "2872 5171",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "沙梨頭及大三巴區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "(日間)首小時MOP$3，隨後每半小時MOP$5。\n(夜間)MOP$4",
+        "heavy": "-",
+        "motorcycle": "首小時MOP$1，隨後每小時MOP$2",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，於日間時段進入停車場之首一小時或不足一小時為澳門幣三元，在首小時隨後的每半小時或不足半小時為澳門幣五元。夜間普通票，每小時或不足一小時為澳門幣四元。\n重型及輕型電單車：首一小時或不足一小時為澳門幣一元，在首小時隨後的每小時或不足一小時為澳門幣兩元。\n(資料由市政署提供)"
+      },
+      "coordinate": {
+        "lat": 22.202514,
+        "lng": 113.537114,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7055"
+    },
+    {
+      "id": 7093,
+      "name": "沙維斯街公共停車場",
+      "officialName": "沙維斯街公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rua de Chaves",
+      "portugueseName": "Parque de Estacionamento Público da Rua de Chaves",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:04",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 85,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 10,
+          "total": 65,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 3,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "沙維斯街、汕頭街及布拉格街交界的一塊戶外用地",
+      "entrance": "入口及出口均設於沙維斯街",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "氹仔舊城及馬場區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": null,
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.15826,
+        "lng": 113.551176,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7093"
+    },
+    {
+      "id": 6009,
+      "name": "亞馬喇前地",
+      "officialName": "亞馬喇前地停車場",
+      "englishName": "Auto-Silo Praça Ferreira do Amaral",
+      "portugueseName": "Auto-Silo Praça Ferreira do Amaral",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 192,
+          "total": 247,
+          "feeBadge": "夜",
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 512,
+          "total": 585,
+          "feeBadge": "夜",
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 12,
+          "total": 16,
+          "feeBadge": "夜",
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 7,
+          "total": 10,
+          "feeBadge": "夜",
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": "夜",
+          "maintenance": false
+        }
+      },
+      "location": "亞馬喇前地下面",
+      "entrance": "入口及出口均設於亞馬喇前地之地下行車迴旋處",
+      "phone": "2871 8859, 2871 8667",
+      "heightLimit": "2.20",
+      "locality": "澳門",
+      "district": "中區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5\n夜間封頂MOP$24",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5\n夜間封頂MOP$6",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n輕型汽車在每連續夜間普通票的泊車時間內按上款計算的泊車費用上限為澳門元24元。\n重型及輕型摩托車在每連續夜間普通票的泊車時間內按上款計算的泊車費用上限為澳門元6元。"
+      },
+      "coordinate": {
+        "lat": 22.189685,
+        "lng": 113.543387,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6009"
+    },
+    {
+      "id": 7079,
+      "name": "協和醫院 - 北入口",
+      "officialName": "協和醫院-北入口",
+      "englishName": "Hospital Macau Union-Entrada Norte",
+      "portugueseName": "Hospital Macau Union-Entrada Norte",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 378,
+          "total": 407,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 435,
+          "total": 480,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 9,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 5,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於離島醫療綜合體北京協和醫院澳門醫學中心的綜合服務行政大樓內",
+      "entrance": "入口和出口設於連接離島醫院大馬路的內部道路",
+      "phone": null,
+      "heightLimit": "2.00",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$4\n(夜間) 每半小時MOP$2",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.13671,
+        "lng": 113.566043,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7079"
+    },
+    {
+      "id": 7078,
+      "name": "協和醫院 - 東入口",
+      "officialName": "協和醫院-東入口",
+      "englishName": "Hospital Macau Union-Entrada Leste",
+      "portugueseName": "Hospital Macau Union-Entrada Leste",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:13",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 157,
+          "total": 183,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 6,
+          "total": 6,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於離島醫療綜合體北京協和醫院澳門醫學中心的綜合服務行政大樓內",
+      "entrance": "入口和出口設於連接離島醫院大馬路的內部道路",
+      "phone": null,
+      "heightLimit": "2.00",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$4\n(夜間) 每半小時MOP$2",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.136025,
+        "lng": 113.566407,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7078"
+    },
+    {
+      "id": 7050,
+      "name": "和諧廣場",
+      "officialName": "和諧廣場公共停車場",
+      "englishName": "Parque de Estacionamento Público da Alameda da Harmonia",
+      "portugueseName": "Parque de Estacionamento Público da Alameda da Harmonia",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:10",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 150,
+          "total": 209,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 121,
+          "total": 146,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 19,
+          "total": 21,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 14,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 7,
+          "total": 7,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "路環石排灣蝴蝶谷大馬路及業興大馬路交界、業興大廈（第X座）對面的建築物內之停車場",
+      "entrance": "入口及出口均設於蝴蝶谷大馬路及業興大馬路交界",
+      "phone": "2843 7843",
+      "heightLimit": "2.00",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.128618,
+        "lng": 113.563603,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7050"
+    },
+    {
+      "id": 6030,
+      "name": "居雅大廈",
+      "officialName": "居雅大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Koi Nga",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Koi Nga",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:12",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 307,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 160,
+          "total": 366,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 1,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 9,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "路環石排灣居雅大廈南面",
+      "entrance": "路環石排灣居雅大廈南面",
+      "phone": "2886 5004",
+      "heightLimit": "2.00",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.129113,
+        "lng": 113.560331,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6030"
+    },
+    {
+      "id": 7100,
+      "name": "東民大廈公共停車場",
+      "officialName": "東民大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Tong Man",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Tong Man",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:56",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 361,
+          "total": 366,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 342,
+          "total": 342,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 0,
+          "total": 38,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 0,
+          "total": 34,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 5,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於東民大廈內並由地庫一層及地庫二層構成",
+      "entrance": "入口及出口均設於東城第二街",
+      "phone": null,
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "新城填海區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": null,
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.206587,
+        "lng": 113.563735,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7100"
+    },
+    {
+      "id": 7091,
+      "name": "東亞運大馬路公共停車場",
+      "officialName": "東亞運大馬路公共停車場",
+      "englishName": "Parque de Estacionamento Público da Avenida dos Jogos da Ásia Oriental",
+      "portugueseName": "Parque de Estacionamento Público da Avenida dos Jogos da Ásia Oriental",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:56",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 42,
+          "total": 45,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 18,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於東亞運大馬路",
+      "entrance": "入口及出口均設於東亞運大馬路",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "氹仔",
+      "district": "氹仔舊城及馬場區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.160785,
+        "lng": 113.540256,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7091"
+    },
+    {
+      "id": 7087,
+      "name": "東城大廈",
+      "officialName": "東城大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Tong Seng",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Tong Seng",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:03",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 380,
+          "total": 499,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 402,
+          "total": 558,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 47,
+          "total": 50,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 61,
+          "total": 61,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 6,
+          "total": 6,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於東城大廈內",
+      "entrance": "入口及出口均設於馬萬祺博士大馬路",
+      "phone": "2852 3810",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "新城填海區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.20504,
+        "lng": 113.56506,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7087"
+    },
+    {
+      "id": 7084,
+      "name": "東啟大廈",
+      "officialName": "東啟大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Tong Kai",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Tong Kai",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:55",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 261,
+          "total": 320,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 247,
+          "total": 296,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 26,
+          "total": 28,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 31,
+          "total": 30,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於東啟大廈內",
+      "entrance": "入口及出口均設於鏡海大馬路",
+      "phone": "2852 8902",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "新城填海區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.20457,
+        "lng": 113.56729,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7084"
+    },
+    {
+      "id": 7083,
+      "name": "東創大廈",
+      "officialName": "東創大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Tong Chong",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Tong Chong",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:11",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 105,
+          "total": 290,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 79,
+          "total": 305,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 31,
+          "total": 31,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 31,
+          "total": 31,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 5,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於東創大廈內",
+      "entrance": "入口及出口均設於鏡海大馬路",
+      "phone": "2852 4002",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "新城填海區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.20576,
+        "lng": 113.56686,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7083"
+    },
+    {
+      "id": 7101,
+      "name": "東業大廈公共停車場",
+      "officialName": "東業大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Tong Ip",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Tong Ip",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:09",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 452,
+          "total": 458,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 460,
+          "total": 460,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 6,
+          "total": 6,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於東業大廈內並由地庫一層及地庫二層構成",
+      "entrance": "入口及出口均設於東城第二街",
+      "phone": null,
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "新城填海區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": null,
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.207568,
+        "lng": 113.56714,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7101"
+    },
+    {
+      "id": 6043,
+      "name": "松樹尾",
+      "officialName": "松樹尾公共停車場",
+      "englishName": "Parque de Estacionamento Público de Chun Su Mei",
+      "portugueseName": "Parque de Estacionamento Público de Chun Su Mei",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:07",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 114,
+          "total": 197,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 167,
+          "total": 197,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 8,
+          "total": 13,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 10,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於氹仔消防局前地及律政司街旁的停車場",
+      "entrance": "入口及出口均設於消防局前地旁的街道",
+      "phone": "2825 0144",
+      "heightLimit": "2.00",
+      "locality": "氹仔",
+      "district": "氹仔舊城及馬場區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.154206,
+        "lng": 113.557228,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6043"
+    },
+    {
+      "id": 6020,
+      "name": "河邊新街",
+      "officialName": "河邊新街公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rua do Almirante Sérgio",
+      "portugueseName": "Parque de Estacionamento Público da Rua do Almirante Sérgio",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 155,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 67,
+          "total": 106,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 1,
+          "total": 7,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 10,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "河邊新街、貨倉巷、比厘喇馬忌士街及鹽巷之間的大廈內",
+      "entrance": "入口及出口均設於貨倉巷",
+      "phone": "2893 7593",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "下環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.190346,
+        "lng": 113.532811,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6020"
+    },
+    {
+      "id": 7082,
+      "name": "長者公寓",
+      "officialName": "東北大馬路長者公寓公共停車場",
+      "englishName": "Parque de Estacionamento Público da Residência para Idosos da Avenida do Nordeste",
+      "portugueseName": "Parque de Estacionamento Público da Residência para Idosos da Avenida do Nordeste",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:13",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 221,
+          "total": 345,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 106,
+          "total": 134,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 7,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 3,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於政府長者公寓內",
+      "entrance": "入口及出口均設於政府長者公寓東北側的道路",
+      "phone": "2821 2030",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "黑沙環及祐漢區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.209247,
+        "lng": 113.558191,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7082"
+    },
+    {
+      "id": 6040,
+      "name": "青怡大廈",
+      "officialName": "青怡大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Cheng I",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Cheng I",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:51",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 77,
+          "total": 283,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 123,
+          "total": 286,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 2,
+          "total": 18,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 0,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於青怡大廈內之停車場",
+      "entrance": "入口及出口均設於青洲大馬路",
+      "phone": "2823 3607",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.210879,
+        "lng": 113.543465,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6040"
+    },
+    {
+      "id": 6039,
+      "name": "青泉樓",
+      "officialName": "青泉樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Cheng Chun",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Cheng Chun",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:10",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 54,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 11,
+          "total": 38,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 3,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 2,
+          "total": 6,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於青洲社會房屋青泉樓內的停車場",
+      "entrance": "入口及出口均設於青洲新馬路",
+      "phone": "2827 0120",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.212236,
+        "lng": 113.538954,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6039"
+    },
+    {
+      "id": 7059,
+      "name": "青洲坊大廈",
+      "officialName": "青洲坊大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício do Bairro da Ilha Verde",
+      "portugueseName": "Parque de Estacionamento Público do Edifício do Bairro da Ilha Verde",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:12",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 665,
+          "total": 1427,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 579,
+          "total": 1628,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 94,
+          "total": 144,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 0,
+          "total": 30,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 15,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於青洲坊大廈內",
+      "entrance": "分別設於李寶椿街及何賢紳士大馬路",
+      "phone": "28425048",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.212053,
+        "lng": 113.542915,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7059"
+    },
+    {
+      "id": 7064,
+      "name": "青茂口岸",
+      "officialName": "青茂口岸停車場",
+      "englishName": "Auto-Silo do Posto Fronteiriço Qingmao",
+      "portugueseName": "Auto-Silo do Posto Fronteiriço Qingmao",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:10",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 81,
+          "total": 158,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 109,
+          "total": 207,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 8,
+          "total": 11,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 28,
+          "total": 31,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 5,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於鴨涌馬路及何賢紳士大馬路之間的青茂口岸澳門邊檢大樓內的停車場",
+      "entrance": "入口及出口均設於鴨涌馬路",
+      "phone": "2893 9223",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$5\n(夜間) 每半小時MOP$4",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$2\n(夜間) 每半小時MOP$1.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.212669,
+        "lng": 113.541567,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7064"
+    },
+    {
+      "id": 6035,
+      "name": "青葱大廈",
+      "officialName": "青葱大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Cheng Chong",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Cheng Chong",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:53",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 9,
+          "total": 244,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 17,
+          "total": 386,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 9,
+          "total": 14,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 11,
+          "total": 25,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於青洲坊青葱大廈內",
+      "entrance": "出口及入口均設於鴨涌馬路",
+      "phone": "2843 2910",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.212203,
+        "lng": 113.541344,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6035"
+    },
+    {
+      "id": 6019,
+      "name": "青翠樓",
+      "officialName": "青翠樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Cheng Choi",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Cheng Choi",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:57",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 221,
+          "total": 304,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 423,
+          "total": 518,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 28,
+          "total": 30,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 14,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "青洲新馬路青洲社屋",
+      "entrance": "入口及出口均設於青洲新馬路",
+      "phone": "2827 1096",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.212427,
+        "lng": 113.537752,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6019"
+    },
+    {
+      "id": 7058,
+      "name": "青濤大廈",
+      "officialName": "青濤大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Cheng Tou",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Cheng Tou",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:13",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 36,
+          "total": 80,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 33,
+          "total": 83,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 6,
+          "total": 8,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 7,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於青洲大馬路青濤大廈內的停車場",
+      "entrance": "入口及出口均設於沙梨頭北街旁的街道",
+      "phone": "28350126",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.21084,
+        "lng": 113.540803,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7058"
+    },
+    {
+      "id": 6001,
+      "name": "南灣(栢湖)",
+      "officialName": "南灣(栢湖)停車場",
+      "englishName": "Auto-Silo da Nam Van (Pak Wu)",
+      "portugueseName": "Silo da Nam Van(Pak Wu)",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 340,
+          "total": 644,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 121,
+          "total": 196,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 4,
+          "total": 8,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 8,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "區華利前地",
+      "entrance": "入口設於南灣湖景大馬路及出口設於南灣大馬路",
+      "phone": "2871 5428",
+      "heightLimit": "1.85",
+      "locality": "澳門",
+      "district": "外港及南灣湖新填海區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.190642,
+        "lng": 113.539604,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6001"
+    },
+    {
+      "id": 7098,
+      "name": "南灣大馬路公共停車場",
+      "officialName": "南灣大馬路公共停車場",
+      "englishName": "Avenida da Praia Grande",
+      "portugueseName": "Avenida da Praia Grande",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:57",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 65,
+          "total": 90,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "南灣大馬路旁之區域",
+      "entrance": "入口及出口均設於南灣大馬路",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "外港及南灣湖新填海區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": null,
+        "heavy": null,
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.191531,
+        "lng": 113.543911,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7098"
+    },
+    {
+      "id": 7077,
+      "name": "柯維納馬路戶外",
+      "officialName": "柯維納馬路戶外停車場",
+      "englishName": "Ar Livre da Estrada Governador Albano de Oliveira",
+      "portugueseName": "Ar Livre da Estrada Governador Albano de Oliveira",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:50",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 32,
+          "total": 71,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 40,
+          "total": 50,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 0,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "heavyOver8m": {
+          "available": 4,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於柯維納馬路並介乎於廣東大馬路與沙維斯街的地面中央分隔帶",
+      "entrance": "入口及出口均設於柯維納馬路",
+      "phone": "28580163",
+      "heightLimit": null,
+      "locality": "氹仔",
+      "district": "氹仔舊城及馬場區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$4\n(夜間) 每半小時MOP$2",
+        "heavy": "(日間)每半小時MOP$5\n(夜間) 每半小時MOP$2.5",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.157232,
+        "lng": 113.549216,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7077"
+    },
+    {
+      "id": 6010,
+      "name": "科學館",
+      "officialName": "澳門科學館停車場",
+      "englishName": "Auto-Silo do Centro de Ciência de Macau",
+      "portugueseName": "Auto-Silo do Centro de Ciência de Macau",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:11",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 291,
+          "total": 415,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 378,
+          "total": 413,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 45,
+          "total": 47,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 15,
+          "total": 15,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 20,
+          "total": 20,
+          "feeBadge": "24",
+          "maintenance": false
+        }
+      },
+      "location": "澳門科學館下面",
+      "entrance": "入口及出口均設於科學館與孫逸仙大馬路之間",
+      "phone": "28575030",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "新口岸區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5\n24小時封頂MOP$75",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5\n24小時封頂MOP$10",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n輕型汽車在每連續二十四小時內按上款計算的泊車費用上限為澳門元75元。\n重型及輕型摩托車在每連續二十四小時內按上款計算的泊車費用上限為澳門元10元。"
+      },
+      "coordinate": {
+        "lat": 22.187594,
+        "lng": 113.557198,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6010"
+    },
+    {
+      "id": 7099,
+      "name": "徐日昇寅公馬路公共停車場",
+      "officialName": "徐日昇寅公馬路公共停車場",
+      "englishName": "Padre Tomás Pereira",
+      "portugueseName": "Padre Tomás Pereira",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:16",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 46,
+          "total": 48,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "徐日昇寅公馬路、氹仔東北馬路及北安碼頭馬路交界旁之區域",
+      "entrance": "入口及出口均設於北安碼頭馬路",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "氹仔",
+      "district": "大學及北安灣區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": null,
+        "heavy": null,
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.163373,
+        "lng": 113.555436,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7099"
+    },
+    {
+      "id": 7074,
+      "name": "旅遊塔",
+      "officialName": "旅遊塔停車場",
+      "englishName": "Macau Tower Convention and Entertainment Centre Car Park",
+      "portugueseName": "Auto-Silo do Centro de Convenções e Entretenimento da Torre de Macau",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:08",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 158,
+          "total": 261,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 14,
+          "total": 149,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "澳門觀光塔前地56號",
+      "entrance": "出口及入口均設於觀光塔前地56號",
+      "phone": "2893 3339",
+      "heightLimit": "2.20",
+      "locality": "澳門",
+      "district": "外港及南灣湖新填海區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$30",
+        "heavy": "-",
+        "motorcycle": "MOP$5",
+        "notes": "-"
+      },
+      "coordinate": {
+        "lat": 22.18024,
+        "lng": 113.5378063,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7074"
+    },
+    {
+      "id": 7062,
+      "name": "栢力",
+      "officialName": "栢力停車場",
+      "englishName": "Auto-Silo do Jai Alai",
+      "portugueseName": "Auto-Silo do Jai Alai",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:08",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 207,
+          "total": 417,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 30,
+          "total": 32,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "海港街",
+      "entrance": "入口及出口均設於海港街",
+      "phone": "2872 7004",
+      "heightLimit": "1.85",
+      "locality": "澳門",
+      "district": "新口岸區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.196891,
+        "lng": 113.554462,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7062"
+    },
+    {
+      "id": 6008,
+      "name": "栢佳",
+      "officialName": "栢佳停車場",
+      "englishName": "Silo Espaço Sintra",
+      "portugueseName": "Silo Espaço Sintra",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:52",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 141,
+          "total": 208,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 9,
+          "total": 9,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "友誼廣場下面",
+      "entrance": "入口及出口均設於蘇亞利斯大馬路之斜坡",
+      "phone": "2871 1672",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "中區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.190431,
+        "lng": 113.541691,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6008"
+    },
+    {
+      "id": 6027,
+      "name": "栢威",
+      "officialName": "栢威停車場",
+      "englishName": "Auto-Silo Pak Vai",
+      "portugueseName": "Auto-Silo Pak Vai",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:57",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 515,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 1,
+          "total": 120,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 8,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 2,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "鏡湖馬路栢威大廈",
+      "entrance": "入口設於俾利喇街及出口設於賈伯樂提督街",
+      "phone": "2853 0413",
+      "heightLimit": "1.85",
+      "locality": "澳門",
+      "district": "新橋區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.198745,
+        "lng": 113.543873,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6027"
+    },
+    {
+      "id": 6042,
+      "name": "栢景",
+      "officialName": "栢景停車場",
+      "englishName": "Auto-Silo Jardim da Vitória",
+      "portugueseName": "Auto-Silo Jardim da Vitória",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:57",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 16,
+          "total": 161,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 1,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "得勝花園旁",
+      "entrance": "入口位於士多鳥拜斯大馬路及出口位於得勝馬路",
+      "phone": "2852 3721",
+      "heightLimit": "1.85",
+      "locality": "澳門",
+      "district": "東望洋區（松山區）",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.198923,
+        "lng": 113.549069,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6042"
+    },
+    {
+      "id": 6024,
+      "name": "栢港",
+      "officialName": "栢港停車場",
+      "englishName": "Auto-Silo Pak Kong",
+      "portugueseName": "Auto-Silo Pak Kong",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:13",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 83,
+          "total": 287,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 8,
+          "total": 9,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於內港介乎於爹美刁施拿地大馬路及巴素打爾古街之間",
+      "entrance": "出口及入口均設於爹美刁施拿地大馬路",
+      "phone": "2895 3196",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "沙梨頭及大三巴區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "MOP$8(日間)\nMOP$4(夜間)",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.197767,
+        "lng": 113.536543,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6024"
+    },
+    {
+      "id": 6002,
+      "name": "栢寧",
+      "officialName": "栢寧停車場",
+      "englishName": "Auto-Silo do Leal Senado, também designado Pak Lane",
+      "portugueseName": "Auto-Silo do Leal Senado, também designado Pak Lane",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:59",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 129,
+          "total": 507,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 5,
+          "total": 17,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "新馬路市政署後面",
+      "entrance": "普通票入口設於江沙路里(龍嵩正街)、月票入口設於議事亭里(亞美打利庇盧大馬路)、出口設於東方斜巷",
+      "phone": "2830 3010",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "下環區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.193034,
+        "lng": 113.53938,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6002"
+    },
+    {
+      "id": 6011,
+      "name": "栢樂停車場",
+      "officialName": "栢樂停車場",
+      "englishName": "Auto-Silo Pak Lok, também designado por Auto-Silo do Terminal Marítimo",
+      "portugueseName": "Auto-Silo Pak Lok, também designado por Auto-Silo do Terminal Marítimo",
+      "isNew": false,
+      "liveUpdatedAt": "-",
+      "maintenance": true,
+      "live": {
+        "light": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": true
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": true
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": true
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": true
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": true
+        }
+      },
+      "location": "外港客運碼頭對面",
+      "entrance": "入口及出口分別設於通往外港客運碼頭道路之東、西兩側",
+      "phone": "2872 8953",
+      "heightLimit": "1.85",
+      "locality": "澳門",
+      "district": "新口岸區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.198262,
+        "lng": 113.558809,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6011"
+    },
+    {
+      "id": 6012,
+      "name": "栢蕙",
+      "officialName": "栢蕙停車場",
+      "englishName": "Silo Ferreira de Almeida, também designado por Pak Wai",
+      "portugueseName": "Silo Ferreira de Almeida, também designado por Pak Wai",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:54",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 81,
+          "total": 1019,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 9,
+          "total": 14,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "荷蘭園正街栢蕙花園",
+      "entrance": "入口設於柯維納總督街及出口設於美副將大馬路",
+      "phone": "2857 0899",
+      "heightLimit": "1.97",
+      "locality": "澳門",
+      "district": "荷蘭園區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.202819,
+        "lng": 113.550743,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6012"
+    },
+    {
+      "id": 6003,
+      "name": "栢濤",
+      "officialName": "栢濤停車場",
+      "englishName": "Auto-Silo Pak Tou",
+      "portugueseName": "Auto-Silo Pak Tou",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 146,
+          "total": 211,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 10,
+          "total": 11,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "佛山街",
+      "entrance": "出口及入口均設於佛山街",
+      "phone": "2878 5723",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "新口岸區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.190532,
+        "lng": 113.545614,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6003"
+    },
+    {
+      "id": 6023,
+      "name": "栢麗",
+      "officialName": "栢麗停車場",
+      "englishName": "Auto-Silo das Portas do Cerco, também conhecido Pak Lai",
+      "portugueseName": "Auto-Silo das Portas do Cerco, também conhecido Pak Lai",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:58",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 45,
+          "total": 355,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 2,
+          "total": 11,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "關閘栢麗大廈",
+      "entrance": "出口及入口均設於馬場大馬路",
+      "phone": "2843 9902",
+      "heightLimit": "2.10",
+      "locality": "澳門",
+      "district": "黑沙環及祐漢區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.21356,
+        "lng": 113.549212,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6023"
+    },
+    {
+      "id": 7061,
+      "name": "海灣南街",
+      "officialName": "海灣南街公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rua da Bacia Sul",
+      "portugueseName": "Parque de Estacionamento Público da Rua da Bacia Sul",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:51",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 4,
+          "total": 306,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 59,
+          "total": 214,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 0,
+          "total": 7,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 3,
+          "total": 25,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於沙梨頭南街、沙梨頭海邊大馬路、沙梨頭新街及海灣南街之間的大廈內的停車場",
+      "entrance": "入口及出口均設於海灣南街",
+      "phone": "2851 0771",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "林茂塘區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.206754,
+        "lng": 113.543542,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7061"
+    },
+    {
+      "id": 6014,
+      "name": "祐漢公園",
+      "officialName": "祐漢公園停車場",
+      "englishName": "Auto-silo Jardim de Iao Hon",
+      "portugueseName": "Auto-silo Jardim de Iao Hon",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:12",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 20,
+          "total": 406,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 99,
+          "total": 404,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 4,
+          "total": 18,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 8,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 6,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "祐漢公園下面",
+      "entrance": "入口及出口均設於市場街",
+      "phone": "2841 2728",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "黑沙環及祐漢區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.211408,
+        "lng": 113.551913,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6014"
+    },
+    {
+      "id": 7088,
+      "name": "航海學校公共停車場",
+      "officialName": "航海學校公共停車場",
+      "englishName": "Escola de Pilotagem",
+      "portugueseName": "Escola de Pilotagem",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:52",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 7,
+          "total": 97,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 47,
+          "total": 52,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 9,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於西灣湖景大馬路、河邊新街及航海學校街交界",
+      "entrance": "入口及出口均設於河邊新街",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "下環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.187291,
+        "lng": 113.53074,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7088"
+    },
+    {
+      "id": 6034,
+      "name": "馬六甲街",
+      "officialName": "馬六甲街停車場",
+      "englishName": "Auto-Silo da Rua de Malaca",
+      "portugueseName": "Auto-Silo da Rua de Malaca",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:13",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 149,
+          "total": 215,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 540,
+          "total": 563,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 15,
+          "total": 16,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 4,
+          "total": 8,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "馬六甲街旁介乎羅理基博士大馬路與高美士街之間",
+      "entrance": "入口及出口均設於馬六甲街",
+      "phone": "2872 7637",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "新口岸區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.195969,
+        "lng": 113.553339,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6034"
+    },
+    {
+      "id": 7096,
+      "name": "高美士街公共停車場",
+      "officialName": "高美士街公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rua de Luís Gonzaga Gomes",
+      "portugueseName": "Parque de Estacionamento Público da Rua de Luís Gonzaga Gomes",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:54",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 16,
+          "total": 42,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 81,
+          "total": 103,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 3,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "高美士街及廈門街交界的一塊戶外用地",
+      "entrance": "入口及出口均設於高美士街",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "新口岸區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.193402,
+        "lng": 113.552202,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7096"
+    },
+    {
+      "id": 7081,
+      "name": "專科大樓",
+      "officialName": "公共衛生專科大樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício de Especialidade de Saúde Pública",
+      "portugueseName": "Parque de Estacionamento Público do Edifício de Especialidade de Saúde Pública",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:05",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 44,
+          "total": 55,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 62,
+          "total": 75,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 2,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 4,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於加思欄後新馬路與若憲馬路之間的公共衛生專科大樓內",
+      "entrance": "入口及出口均設於若憲馬路",
+      "phone": null,
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "東望洋區（松山區）",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$4\n(夜間) 每半小時MOP$2",
+        "heavy": null,
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.19336,
+        "lng": 113.545681,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7081"
+    },
+    {
+      "id": 7086,
+      "name": "望信樓",
+      "officialName": "望信樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Mong Son",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Mong Son",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:51",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 427,
+          "total": 530,
+          "feeBadge": "夜",
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 207,
+          "total": 338,
+          "feeBadge": "日夜",
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 39,
+          "total": 45,
+          "feeBadge": "夜",
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 27,
+          "total": 31,
+          "feeBadge": "日夜",
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 7,
+          "total": 7,
+          "feeBadge": "夜",
+          "maintenance": false
+        }
+      },
+      "location": "位於望信樓內",
+      "entrance": "入口及出口均設於慕拉士大馬路",
+      "phone": "2852 2683",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "望廈及水塘區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5\n夜間封頂MOP$24",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5\n日間封頂MOP$12\n夜間封頂MOP$6",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n輕型汽車在每連續夜間普通票的泊車時間內按上款計算的泊車費用上限為澳門元24元。\n重型及輕型摩托車在每連續日間普通票及夜間普通票的泊車時間內按上款計算的泊車費用上限分別為澳門元12元及澳門元6元。"
+      },
+      "coordinate": {
+        "lat": 22.204607,
+        "lng": 113.554926,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7086"
+    },
+    {
+      "id": 6007,
+      "name": "望善樓",
+      "officialName": "望善樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Mong Sin",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Mong Sin",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 18,
+          "total": 133,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 108,
+          "total": 231,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 6,
+          "total": 7,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 12,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "望廈社屋第一期",
+      "entrance": "入口及出口均設於區神父街",
+      "phone": "2841 0001",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "望廈及水塘區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.206768,
+        "lng": 113.552019,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6007"
+    },
+    {
+      "id": 7068,
+      "name": "望廈體育中心",
+      "officialName": "望廈體育中心公共停車場",
+      "englishName": "Parque de Estacionamento Público do Centro Desportivo Mong-Há",
+      "portugueseName": "Parque de Estacionamento Público do Centro Desportivo Mong-Há",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:11",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 105,
+          "total": 264,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 129,
+          "total": 212,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 11,
+          "total": 14,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 6,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於望善街、俾利喇街及馬交石斜坡/黑沙環斜路之間的望廈體育中心內的停車場",
+      "entrance": "入口及出口均設於望善街",
+      "phone": "2855 0933",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "望廈及水塘區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.20641,
+        "lng": 113.5512,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7068"
+    },
+    {
+      "id": 7066,
+      "name": "望德樓",
+      "officialName": "望德樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Mong Tak",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Mong Tak",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:13",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 336,
+          "total": 476,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 237,
+          "total": 280,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 22,
+          "total": 26,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 8,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 6,
+          "total": 6,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於望善街、慕拉士大馬路及俾利喇街之間的望德樓內的停車場",
+      "entrance": "入口及出口均設於望善街",
+      "phone": "2878 0108",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "望廈及水塘區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.206918,
+        "lng": 113.551492,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7066"
+    },
+    {
+      "id": 6025,
+      "name": "望賢樓",
+      "officialName": "望賢樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Mong In",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Mong In",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 23,
+          "total": 143,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 101,
+          "total": 237,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 10,
+          "total": 12,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 10,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "望廈社會房屋望賢樓內之停車場",
+      "entrance": "入口及出口均設於俾利喇街",
+      "phone": "2851 9124",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "望廈及水塘區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.205628,
+        "lng": 113.549999,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6025"
+    },
+    {
+      "id": 7053,
+      "name": "港珠澳大橋邊檢大樓西停車場",
+      "officialName": "港珠澳大橋邊檢大樓西停車場",
+      "englishName": "Auto-Silo Oeste do Posto Fronteirico da Ponte Hong Kong-Zhuhai-Macau",
+      "portugueseName": "Auto-Silo Oeste do Posto Fronteirico da Ponte Hong Kong-Zhuhai-Macau",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:59",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 2923,
+          "total": 3089,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 2015,
+          "total": 2054,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 7,
+          "total": 12,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 34,
+          "total": 36,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於港珠澳大橋澳門邊檢大樓西側的停車場",
+      "entrance": "西停車場地庫及地面層的出入口均設於港珠澳大橋澳門邊檢大樓西側的街道",
+      "phone": "2838 3143",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "新城填海區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.201473949,
+        "lng": 113.572953807,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7053"
+    },
+    {
+      "id": 7052,
+      "name": "港珠澳大橋邊檢大樓東公共停車場",
+      "officialName": "港珠澳大橋邊檢大樓東公共停車場",
+      "englishName": "East Public Car Park of the HZMB Macao Frontier Post",
+      "portugueseName": "Parque de Estacionamento Público Este do Posto Fronteiriço da Ponte Hong Kong-Zhuhai-Macau",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:07",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 2783,
+          "total": 3000,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 34,
+          "total": 52,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 31,
+          "total": 40,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於港珠澳大橋澳門邊檢大樓東側的停車場",
+      "entrance": "東停車場地庫及地面層的出入口均設於港珠澳大橋澳門邊檢大樓東側的街道",
+      "phone": "2842 0711",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "新城填海區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP $10\n每連續12-24小時MOP$120",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": null
+      },
+      "coordinate": {
+        "lat": 22.201732319,
+        "lng": 113.578413929,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7052"
+    },
+    {
+      "id": 6029,
+      "name": "湖畔大廈",
+      "officialName": "湖畔大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício do Lago",
+      "portugueseName": "Parque de Estacionamento Público do Edifício do Lago",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:07",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 61,
+          "total": 678,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 705,
+          "total": 1132,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 9,
+          "total": 24,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 7,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 8,
+          "total": 8,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "氹仔湖畔大廈內",
+      "entrance": "輕型汽車入口及出口設於美副將馬路而另一入口及出口設於馬德拉街及湛江街，重型及輕型摩托車的兩個入口及出口設於湛江街及美副將馬路",
+      "phone": "2850 0103",
+      "heightLimit": "2.00",
+      "locality": "氹仔",
+      "district": "氹仔中心區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.159631,
+        "lng": 113.560615,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6029"
+    },
+    {
+      "id": 6006,
+      "name": "華士古達嘉馬花園",
+      "officialName": "華士古達嘉馬花園停車場",
+      "englishName": "Auto-Silo do Jardim de Vasco da Gama",
+      "portugueseName": "Auto-Silo do Jardim de Vasco da Gama",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:12",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 38,
+          "total": 174,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 99,
+          "total": 218,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 8,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 8,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於高偉樂街、東望洋街及東望洋斜巷之間的建築物內的停車場",
+      "entrance": "入口及出口均設於東望洋街",
+      "phone": "2852 3411",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "東望洋區（松山區）",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.196392,
+        "lng": 113.546409,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6006"
+    },
+    {
+      "id": 7071,
+      "name": "華士古達嘉馬花園- 東區",
+      "officialName": "華士古達嘉馬花園停車場 - 東區",
+      "englishName": "Zona Este - Auto-Silo do Jardim de Vasco da Gama",
+      "portugueseName": "Zona Este - Auto-Silo do Jardim de Vasco da Gama",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:12",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 19,
+          "total": 76,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於高偉樂街、東望洋街及東望洋斜巷之間的建築物內的停車場",
+      "entrance": "入口及出口均設於高偉樂街",
+      "phone": "2852 3411",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "東望洋區（松山區）",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.19687,
+        "lng": 113.54725,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7071"
+    },
+    {
+      "id": 6037,
+      "name": "黑橋街",
+      "officialName": "黑橋街公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rua da Ponte Negra",
+      "portugueseName": "Parque de Estacionamento Público da Rua da Ponte Negra",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:10",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 23,
+          "total": 95,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 21,
+          "total": 80,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 9,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 11,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於黑橋街氹仔平民新村第十座及第十一座內之停車場",
+      "entrance": "入口及出口均設於黑橋街",
+      "phone": "2882 7754",
+      "heightLimit": "1.95",
+      "locality": "氹仔",
+      "district": "氹仔舊城及馬場區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.154436,
+        "lng": 113.555744,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6037"
+    },
+    {
+      "id": 6045,
+      "name": "塔石廣場地下上落客區(重型客車)",
+      "officialName": "塔石廣場地下上落客區(重型客車)",
+      "englishName": "Underground loading bay of Tap Seac Square (Heavy passenger bus)",
+      "portugueseName": "Área subterrânea de tomada e largada de passageiros da Praça do Tap Seac ( automóveis pesados de passageiros)",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:10",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 44,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "高偉樂街與沙嘉都喇賈罷麗街之間的塔石廣場地下",
+      "entrance": "入口設於塔石廣場隧道及出口設於沙嘉都喇賈罷麗街",
+      "phone": "2852 2729",
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "東望洋區（松山區）",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "-",
+        "heavy": "-",
+        "motorcycle": "-",
+        "notes": "-"
+      },
+      "coordinate": {
+        "lat": 22.198213,
+        "lng": 113.547061,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6045"
+    },
+    {
+      "id": 7094,
+      "name": "媽閣交通樞紐重型客車停車場",
+      "officialName": "媽閣交通樞紐重型客車停車場",
+      "englishName": "Heavy Passenger Motor Vehicles Parking Lot of Barra Public Transport Interchange",
+      "portugueseName": "Parque de Estacionamento dos Automóveis Pesados de Passageiros do Centro Modal de Transportes da Barra",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:08",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "heavyOver8m": {
+          "available": 24,
+          "total": 27,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於澳門西灣湖景大馬路鄰近媽閣輕軌站的媽閣交通樞紐地庫二層",
+      "entrance": "設於西灣湖景大馬路鄰近媽閣交通樞紐巴士總站路段",
+      "phone": "63967240",
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "下環區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": null,
+        "heavy": "(日間)每半小時MOP6\n(夜間)每半小時MOP3",
+        "motorcycle": null,
+        "notes": "重型汽車︰日間普通票，每半小時或不足半小時為澳門幣6元。\n夜間普通票，每半小時或不足半小時為澳門幣3元。\n於2026年9月1日至12月31日實行優惠︰首小時免費\n當持普通票車輛在停車場連續泊車超過規定之泊車時間上限，其後(即由連續停泊的第九日起)每半小時或不足半小時收取雙倍的泊車費用"
+      },
+      "coordinate": {
+        "lat": 22.18306,
+        "lng": 113.52999,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7094"
+    },
+    {
+      "id": 7075,
+      "name": "媽閣交通樞紐停車場",
+      "officialName": "媽閣交通樞紐停車場",
+      "englishName": "Barra Public Transport Interchange Parking Lot",
+      "portugueseName": "Parque de Estacionamento do Centro Modal de Transportes da Barra",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:12",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 198,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 378,
+          "total": 403,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 0,
+          "total": null,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 3,
+          "total": 3,
+          "feeBadge": "24",
+          "maintenance": false
+        }
+      },
+      "location": "位於澳門西灣湖景大馬路鄰近媽閣輕軌站的媽閣交通樞紐地庫三層",
+      "entrance": "設於西灣湖景大馬路鄰近媽閣交通樞紐巴士總站路段",
+      "phone": "63325476",
+      "heightLimit": "2.10",
+      "locality": "澳門",
+      "district": "下環區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "輕型汽車︰日間普通票，每半小時或不足半小時為澳門幣3元。\n夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n於2026年4月1日至12月31日實行優惠︰\n每24小時封頂收費MOP60，此收費優惠模式可連續使用八日\n重型及輕型電單車︰日間普通票，每半小時或不足半小時為澳門幣1元。\n夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n於2026年4月1日至12月31日實行優惠︰\n每24小時封頂收費MOP15，此收費優惠模式可連續使用八日\n當持普通票車輛在停車場連續泊車超過規定之泊車時間上限，其後(即由連續停泊的第九日起)每半小時或不足半小時收取雙倍的泊車費用"
+      },
+      "coordinate": {
+        "lat": 22.18306,
+        "lng": 113.52999,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7075"
+    },
+    {
+      "id": 7092,
+      "name": "新城B區公共停車場",
+      "officialName": "新城B區公共停車場",
+      "englishName": "Parque de Estacionamento Público da Zona B dos Novos Aterros Urbanos",
+      "portugueseName": "Parque de Estacionamento Público da Zona B dos Novos Aterros Urbanos",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:08",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 244,
+          "total": 262,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": "24",
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "heavyOver8m": {
+          "available": 0,
+          "total": 320,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於新城B區的一塊戶外用地",
+      "entrance": "入口及出口均設於孫逸仙大馬路",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "澳門",
+      "district": "新城B區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "-",
+        "heavy": "(日間)每半小時MOP$5\n(夜間) 每半小時MOP$2.5",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n重型客車：日間普通票，每半小時或不足半小時為澳門幣5元。夜間普通票，每半小時或不足半小時為澳門幣2.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n重型客車在每連續二十四小時內的泊車費用上限為澳門元60元。\n重型及輕型摩托車在每連續二十四小時內的泊車費用上限為澳門元10元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.183476,
+        "lng": 113.548518,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7092"
+    },
+    {
+      "id": 6032,
+      "name": "業興大廈",
+      "officialName": "業興大廈公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Ip Heng",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Ip Heng",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:13",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 57,
+          "total": 389,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 195,
+          "total": 606,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 34,
+          "total": 39,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 10,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "路環石排灣業興大廈北面",
+      "entrance": "路環石排灣業興大廈北面",
+      "phone": "2850 2006",
+      "heightLimit": "2.00",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.129754,
+        "lng": 113.56488,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6032"
+    },
+    {
+      "id": 7089,
+      "name": "路環打纜街公共停車場",
+      "officialName": "路環打纜街公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rua da Cordoaria em Coloane",
+      "portugueseName": "Parque de Estacionamento Público da Rua da Cordoaria em Coloane",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:07",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 59,
+          "total": 70,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 46,
+          "total": 46,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 8,
+          "total": 8,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於竹灣馬路及打纜街交界的一塊戶外用地",
+      "entrance": "入口及出口均設於打纜街",
+      "phone": null,
+      "heightLimit": null,
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n進入停車場並於十五分鐘內離場，免收相關泊車費用。"
+      },
+      "coordinate": {
+        "lat": 22.1171,
+        "lng": 113.55269,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7089"
+    },
+    {
+      "id": 6031,
+      "name": "樂群樓",
+      "officialName": "樂群樓公共停車場",
+      "englishName": "Parque de Estacionamento Público do Edifício Lok Kuan",
+      "portugueseName": "Parque de Estacionamento Público do Edifício Lok Kuan",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:10",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 80,
+          "total": 359,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 292,
+          "total": 550,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 29,
+          "total": 36,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 7,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 5,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於路環石排灣樂群樓內之停車場",
+      "entrance": "出口及入口均設於大廈西面",
+      "phone": "2850 2005",
+      "heightLimit": "2.00",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.12967,
+        "lng": 113.561468,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6031"
+    },
+    {
+      "id": 6015,
+      "name": "蓮花路",
+      "officialName": "蓮花路公共停車場",
+      "englishName": "Parque de Estacionamento Público da Estrada Flor de Lótus",
+      "portugueseName": "Parque de Estacionamento Público da Estrada Flor de Lótus",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:12",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 340,
+          "total": 416,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 461,
+          "total": 512,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 39,
+          "total": 42,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 10,
+          "total": 11,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 7,
+          "total": 7,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "蓮花路路氹城邊檢大樓旁",
+      "entrance": "入口及出口均設於路氹蓮花路",
+      "phone": "2886 5214",
+      "heightLimit": "2.00",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。"
+      },
+      "coordinate": {
+        "lat": 22.138734,
+        "lng": 113.560313,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6015"
+    },
+    {
+      "id": 7085,
+      "name": "蓮花路 (重型)",
+      "officialName": "蓮花路重型汽車停車場",
+      "englishName": "A entrada e saida do Auto-Silo de Automoveis Pesados da Estrada Flor de Lotus efectua-se pela Estrada Flor de Lotus.",
+      "portugueseName": "Auto-Silo de Automoveis Pesados da Estrada Flor de Lotus",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:05",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "heavyUnder8m": {
+          "available": 151,
+          "total": 159,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "heavyOver8m": {
+          "available": 53,
+          "total": 86,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於蓮花路之地下的停車場",
+      "entrance": "入口及出口均設於蓮花路",
+      "phone": "2887 0756",
+      "heightLimit": "4.50",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "-",
+        "heavy": "MOP $4(註1) MOP $5(註2)",
+        "motorcycle": "-",
+        "notes": "註1：長度8米或以下之重型汽車。註2：長度8米以上之重型汽車。"
+      },
+      "coordinate": {
+        "lat": 22.138555,
+        "lng": 113.560241,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7085"
+    },
+    {
+      "id": 7056,
+      "name": "蝴蝶谷",
+      "officialName": "蝴蝶谷停車場",
+      "englishName": "Vale das Borboletas Car Park (Auto-Silo do Vale das Borboletas)",
+      "portugueseName": "Auto-Silo do Vale das Borboletas",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:55",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 318,
+          "total": 324,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 163,
+          "total": 165,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 37,
+          "total": 39,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 10,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 6,
+          "total": 6,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "石排灣社區綜合大樓第三層至第五層",
+      "entrance": "入口及出口均設於蝴蝶谷大馬路(資料由市政署提供)",
+      "phone": "2876 5073",
+      "heightLimit": "2.00",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.128486,
+        "lng": 113.562053,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7056"
+    },
+    {
+      "id": 7070,
+      "name": "澳門文化中心",
+      "officialName": "澳門文化中心停車場",
+      "englishName": "Auto-Silo do Centro Cultural de Macau",
+      "portugueseName": "Auto-Silo do Centro Cultural de Macau",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:46",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 135,
+          "total": 135,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 28,
+          "total": 34,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": null,
+          "total": null,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 5,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 2,
+          "total": 2,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於冼星海大馬路及孫逸仙大馬路之間的澳門文化中心內的停車場",
+      "entrance": "入口及出口均設於冼星海大馬路",
+      "phone": "2895 5117",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "新口岸區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.188705,
+        "lng": 113.554413,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7070"
+    },
+    {
+      "id": 7054,
+      "name": "澳門新批發市場",
+      "officialName": "澳門新批發市場停車場",
+      "englishName": "Car Park of New Wholesale Market of Macao (Auto-Silo do Novo Mercado Abastecedor de Macau)",
+      "portugueseName": "Auto-Silo do Novo Mercado Abastecedor de Macau",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:54",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 104,
+          "total": 115,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 73,
+          "total": 74,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 10,
+          "total": 11,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 10,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "澳門新批發市場地庫第二層及第三層",
+      "entrance": "入口及出口均設於工業園大馬路(資料由市政署提供)",
+      "phone": "2872 5903",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "青洲區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.2106,
+        "lng": 113.534641,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7054"
+    },
+    {
+      "id": 7069,
+      "name": "聯生圓形地",
+      "officialName": "聯生圓形地公共停車場",
+      "englishName": "Parque de Estacionamento Público da Rotunda da Concórdia",
+      "portugueseName": "Parque de Estacionamento Público da Rotunda da Concórdia",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:08:54",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 0,
+          "total": 198,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 72,
+          "total": 104,
+          "feeBadge": "夜",
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 1,
+          "total": 21,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 8,
+          "total": 10,
+          "feeBadge": "夜",
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於石排灣馬路及紅𣒍路之間的大廈內的停車場",
+      "entrance": "入口及出口均設於紅𣒍路",
+      "phone": "2836 5806",
+      "heightLimit": "2.00",
+      "locality": "路環",
+      "district": "路環區",
+      "feeHeading": "每半小時或不足半小時之收費 (MOP$)",
+      "tariffs": {
+        "light": "(日間)每半小時MOP$3\n(夜間) 每半小時MOP$1.5",
+        "heavy": "-",
+        "motorcycle": "(日間)每半小時MOP$1\n(夜間) 每半小時MOP$0.5\n夜間封頂MOP$6",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前\n輕型汽車：日間普通票，每半小時或不足半小時為澳門幣3元。夜間普通票，每半小時或不足半小時為澳門幣1.5元。\n重型及輕型電單車：日間普通票，每半小時或不足半小時為澳門幣1元。夜間普通票，每半小時或不足半小時為澳門幣0.5元。\n重型及輕型摩托車在每連續夜間普通票的泊車時間內按上款計算的泊車費用上限為澳門元6元。"
+      },
+      "coordinate": {
+        "lat": 22.126035,
+        "lng": 113.5548,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7069"
+    },
+    {
+      "id": 6004,
+      "name": "藝園",
+      "officialName": "藝園停車場",
+      "englishName": "Auto-Silo Jardim das Artes",
+      "portugueseName": "Silo Jardim das Artes",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:12",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 190,
+          "total": 351,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 296,
+          "total": 446,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 19,
+          "total": 25,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 12,
+          "total": 15,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 4,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "藝園下面",
+      "entrance": "入口及出口均設於廣州街及仙德麗街",
+      "phone": "2878 6930",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "外港及南灣湖新填海區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.189844,
+        "lng": 113.54678,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6004"
+    },
+    {
+      "id": 7060,
+      "name": "關閘綜合體育場館",
+      "officialName": "關閘綜合體育場館停車場",
+      "englishName": "Auto-Silo do Complexo Desportivo das Portas do Cerco",
+      "portugueseName": "Auto-Silo do Complexo Desportivo das Portas do Cerco",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 450,
+          "total": 788,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 530,
+          "total": 800,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 8,
+          "total": 17,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 2,
+          "total": 20,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 10,
+          "total": 10,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "位於關閘綜合體育場館內的停車場",
+      "entrance": "入口及出口均設於關閘廣場",
+      "phone": "2850 9175",
+      "heightLimit": "2.00",
+      "locality": "澳門",
+      "district": "黑沙環及祐漢區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.2152235,
+        "lng": 113.5472751,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=7060"
+    },
+    {
+      "id": 6013,
+      "name": "麗都",
+      "officialName": "麗都停車場",
+      "englishName": "Auto-Silo das Portas do Cerco, também conhecido Pak Lai",
+      "portugueseName": "Auto-Silo do Lido",
+      "isNew": false,
+      "liveUpdatedAt": "2026-09-30 00:09:14",
+      "maintenance": false,
+      "live": {
+        "light": {
+          "available": 15,
+          "total": 62,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "motorcycle": {
+          "available": 12,
+          "total": 24,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricCar": {
+          "available": 3,
+          "total": 4,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "electricMotorcycle": {
+          "available": 4,
+          "total": 5,
+          "feeBadge": null,
+          "maintenance": false
+        },
+        "accessible": {
+          "available": 1,
+          "total": 1,
+          "feeBadge": null,
+          "maintenance": false
+        }
+      },
+      "location": "美副將與提督馬路交界",
+      "entrance": "入口設於連勝巷及出口設於罅些喇提督大馬路",
+      "phone": "28216974",
+      "heightLimit": "1.95",
+      "locality": "澳門",
+      "district": "高士德及雅廉訪區",
+      "feeHeading": "每小時或不足一小時之收費(MOP$)",
+      "tariffs": {
+        "light": "MOP$6(日間)\nMOP$3(夜間)",
+        "heavy": "-",
+        "motorcycle": "MOP$2(日間)\nMOP$1(夜間)",
+        "notes": "日間：上午八時至下午八時前\n夜間：下午八時至翌日上午八時前"
+      },
+      "coordinate": {
+        "lat": 22.20729,
+        "lng": 113.545729,
+        "source": "data.gov.mo"
+      },
+      "officialUrl": "https://m.dsat.gov.mo/carpark_detail.aspx?id=6013"
+    }
+  ]
+}

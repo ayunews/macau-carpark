@@ -1,0 +1,16 @@
+{
+  "name": "macau-carpark",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static Macau carpark finder and parking fee simulator powered by public DSAT data.",
+  "scripts": {
+    "sync": "node scripts/sync-dsat.mjs",
+    "build": "node scripts/build-standalone.mjs && node scripts/build-site.mjs",
+    "test": "node --test",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2"
+  }
+}
