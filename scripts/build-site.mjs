@@ -11,9 +11,15 @@ const files = [
   "app.js",
   "billing.js",
   "favicon.svg",
+  "manifest.webmanifest",
+  "sw.js",
   "standalone.html",
   "data/carparks.json",
   "README.md",
+  "icons/icon-192.png",
+  "icons/icon-512.png",
+  "icons/icon-maskable-512.png",
+  "icons/apple-touch-icon.png",
 ];
 
 await rm(DIST, { recursive: true, force: true });

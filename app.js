@@ -64,6 +64,7 @@ const state = {
 const elements = {
   refreshButton: document.querySelector("#refreshButton"),
   simulatorButton: document.querySelector("#simulatorButton"),
+  installButton: document.querySelector("#installButton"),
   searchInput: document.querySelector("#searchInput"),
   clearSearch: document.querySelector("#clearSearch"),
   regionFilter: document.querySelector("#regionFilter"),
@@ -143,14 +144,117 @@ function renderIcons() {
   }
 }
 
-function showToast(message, tone = "default") {
+function showToast(message, tone = "default", duration = 3600) {
   elements.toast.textContent = message;
   elements.toast.dataset.tone = tone;
   elements.toast.classList.add("is-visible");
   window.clearTimeout(showToast.timer);
   showToast.timer = window.setTimeout(() => {
     elements.toast.classList.remove("is-visible");
-  }, 3600);
+  }, duration);
+}
+
+const IOS_INSTALL_HINT =
+  "在 Safari 點選工具列的「分享」圖示，再選「加入主畫面」，即可把泊車澳門安裝到手機桌面。";
+const DESKTOP_INSTALL_HINT =
+  "請在瀏覽器選單選擇「安裝應用程式」或「加到主畫面」，即可把泊車澳門安裝到桌面。";
+
+let deferredInstallPrompt = null;
+
+function isRunningStandalone() {
+  return (
+    window.matchMedia?.("(display-mode: standalone)")?.matches === true ||
+    window.matchMedia?.("(display-mode: fullscreen)")?.matches === true ||
+    window.navigator.standalone === true
+  );
+}
+
+function isIosDevice() {
+  const { userAgent, platform, maxTouchPoints } = window.navigator;
+  return (
+    /iPad|iPhone|iPod/.test(userAgent) ||
+    (platform === "MacIntel" && maxTouchPoints > 1)
+  );
+}
+
+function isSafariBrowser() {
+  const { userAgent } = window.navigator;
+  return (
+    /Safari/.test(userAgent) &&
+    !/Chrome|Chromium|CriOS|EdgiOS|FxiOS|OPiOS|Android/.test(userAgent)
+  );
+}
+
+function syncInstallButton() {
+  const button = elements.installButton;
+  if (!button) return;
+
+  const installed = isRunningStandalone();
+  const canPrompt = Boolean(deferredInstallPrompt);
+  const needsManualHint = !canPrompt && isIosDevice() && isSafariBrowser();
+
+  button.hidden = installed || (!canPrompt && !needsManualHint);
+  button.title = needsManualHint
+    ? "加入主畫面：Safari 分享 → 加入主畫面"
+    : "安裝到手機桌面";
+}
+
+function setupInstallPrompt() {
+  syncInstallButton();
+
+  window.addEventListener("beforeinstallprompt", (event) => {
+    event.preventDefault();
+    deferredInstallPrompt = event;
+    syncInstallButton();
+  });
+
+  window.addEventListener("appinstalled", () => {
+    deferredInstallPrompt = null;
+    syncInstallButton();
+    showToast("已安裝到主畫面，可直接從手機桌面開啟。", "success", 5200);
+  });
+
+  elements.installButton?.addEventListener("click", async () => {
+    if (!deferredInstallPrompt) {
+      showToast(isIosDevice() ? IOS_INSTALL_HINT : DESKTOP_INSTALL_HINT, "default", 9000);
+      return;
+    }
+
+    const prompt = deferredInstallPrompt;
+    try {
+      prompt.prompt();
+      const choice = await prompt.userChoice;
+      if (choice?.outcome === "accepted") {
+        deferredInstallPrompt = null;
+      } else {
+        deferredInstallPrompt = prompt;
+      }
+    } catch {
+      deferredInstallPrompt = null;
+    }
+    syncInstallButton();
+  });
+
+  window
+    .matchMedia?.("(display-mode: standalone)")
+    ?.addEventListener?.("change", syncInstallButton);
+}
+
+function registerServiceWorker() {
+  if (!("serviceWorker" in window.navigator)) return;
+  if (!/^https?:$/.test(window.location.protocol)) return;
+
+  const register = () => {
+    window.navigator.serviceWorker.register("./sw.js").catch(() => {
+      // 離線支援不影響網站本身運作。
+    });
+  };
+
+  if (document.readyState === "complete") {
+    register();
+  } else {
+    window.addEventListener("load", register, { once: true });
+  }
 }
 
 function parseSourceDate(value) {
@@ -1444,6 +1548,8 @@ function bindEvents() {
 
 async function initialize() {
   bindEvents();
+  setupInstallPrompt();
+  registerServiceWorker();
   const times = defaultSimulationTimes();
   state.comparison.entry = times.entry;
   state.comparison.exit = times.exit;

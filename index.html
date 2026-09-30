@@ -8,8 +8,20 @@
       content="澳門公共停車場即時空位、地圖搜尋及停車費用模擬。"
     />
     <meta name="theme-color" content="#f4f5f1" />
+    <meta name="application-name" content="泊車澳門" />
+    <meta name="apple-mobile-web-app-title" content="泊車澳門" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <title>泊車澳門 · 即時車位與計費</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="./icons/icon-192.png" sizes="192x192" type="image/png" />
+    <link
+      rel="apple-touch-icon"
+      href="./icons/apple-touch-icon.png"
+      sizes="180x180"
+    />
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -49,6 +61,16 @@
           >
             <i data-lucide="calculator" aria-hidden="true"></i>
             <span>模擬計費</span>
+          </button>
+          <button
+            id="installButton"
+            class="icon-button"
+            type="button"
+            title="安裝到手機桌面"
+            aria-label="安裝到手機桌面"
+            hidden
+          >
+            <i data-lucide="download" aria-hidden="true"></i>
           </button>
           <button
             id="refreshButton"

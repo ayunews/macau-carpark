@@ -14,6 +14,7 @@
 - 根據官方文字規則模擬跨日夜、首小時、分段車長、15 分鐘免費及各類封頂費用
 - 每 5 分鐘在瀏覽器重新讀取同網域快照
 - GitHub Actions 每 5 分鐘抓取最新官方資料並重新部署
+- 支援 PWA：可安裝到手機或桌面主畫面，並在離線時開啟快取版本
 
 ## 資料來源
 
@@ -75,6 +76,16 @@ git remote add origin https://github.com/YOUR-NAME/YOUR-REPO.git
 git push -u origin main
 ```
 
+## 安裝到手機桌面
+
+網站是標準 PWA，開啟 GitHub Pages 網址後即可安裝：
+
+- Android（Chrome／Edge）：開啟網址後按右上角的「安裝應用程式」，或按介面右上角的「下載」圖示。
+- iPhone／iPad（必須用 Safari，其他瀏覽器不支援）：開啟網址後按工具列的「分享」→「加入主畫面」，或在介面右上角按「下載」圖示查看指示。
+- 桌面 Chrome／Edge：網址列的安裝圖示，或介面右上角的「下載」圖示。
+
+安裝後圖示會使用 `icons/` 內的品牌圖示，以獨立視窗開啟，狀態列顏色跟隨 `theme_color`。Service worker（`sw.js`）會快取介面及 CDN 資源；停車場即時資料一律先經網絡更新，離線時才用上次成功的快照。
+
 ## 計費準確度
 
 計費器會解析 DSAT 詳情頁的收費文字，支援目前資料中常見的規則：
@@ -96,6 +107,9 @@ index.html                     網站版面
 styles.css                     介面樣式
 app.js                         搜尋、地圖、詳情及模擬器介面
 billing.js                     收費規則解析與計算
+manifest.webmanifest           PWA 安裝設定
+sw.js                          Service worker（離線快取）
+icons/                         手機桌面及主畫面圖示
 data/carparks.json             最新同步快照
 scripts/sync-dsat.mjs          DSAT 及地圖資料同步
 scripts/build-site.mjs         GitHub Pages 靜態輸出
