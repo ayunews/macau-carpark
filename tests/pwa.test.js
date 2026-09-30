@@ -92,3 +92,35 @@ test("install button is wired between index.html and app.js", () => {
   assert.match(app, /serviceWorker\.register\("\.\/sw\.js"\)/);
   assert.match(app, /加入主畫面/);
 });
+
+test("service worker precaches the CDN icon and map libraries", () => {
+  assert.match(sw, /const CDN_ASSETS = \[/);
+  assert.match(sw, /lucide@0\.468\.0\/dist\/umd\/lucide\.min\.js/);
+  assert.match(sw, /leaflet@1\.9\.4\/dist\/leaflet\.js/);
+  assert.match(sw, /leaflet\.markercluster@1\.5\.3\/dist\/leaflet\.markercluster\.js/);
+  assert.match(sw, /precacheCdnAssets/);
+  assert.match(sw, /if \(await cache\.match\(asset\)\) return;/);
+});
+
+test("service worker never returns a response that was handed to cache.put", () => {
+  const put = sw.match(/async function putInCache\([\s\S]*?\n\}/);
+  assert.ok(put, "putInCache 不存在");
+  assert.ok(
+    !/return/.test(put[0]),
+    "putInCache 不應回傳已交給 cache.put 的回應物件",
+  );
+
+  const swr = sw.match(/async function staleWhileRevalidate\([\s\S]*?\n\}/);
+  assert.ok(swr, "staleWhileRevalidate 不存在");
+  assert.match(swr[0], /await putInCache\(cacheName, request, response\.clone\(\)\)/);
+  assert.match(swr[0], /return response;/);
+});
+
+test("icon and map libraries have fallback sources", () => {
+  assert.match(app, /THIRD_PARTY_FALLBACKS/);
+  assert.match(app, /cdn\.jsdelivr\.net\/npm\/lucide@0\.468\.0/);
+  assert.match(app, /cdn\.jsdelivr\.net\/npm\/leaflet@1\.9\.4/);
+  assert.match(app, /ensureThirdPartyAssets/);
+  assert.match(app, /loadFirstAvailableScript/);
+  assert.match(indexHtml, /cdn\.jsdelivr\.net\/npm\/leaflet@1\.9\.4\/dist\/leaflet\.css/);
+});

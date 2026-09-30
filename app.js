@@ -240,6 +240,124 @@ function setupInstallPrompt() {
     ?.addEventListener?.("change", syncInstallButton);
 }
 
+// 圖示（Lucide）及地圖（Leaflet）本來由 CDN 載入。手機桌面版第一次開啟或離線時
+// 若 CDN 拿不到，畫面就只會剩下底色，所以這裡加一層備援：換另一個 CDN 重試，
+// 載入成功後立即重繪圖示及地圖。
+const THIRD_PARTY_FALLBACKS = {
+  leaflet: [
+    "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js",
+    "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+  ],
+  markercluster: [
+    "https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js",
+    "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js",
+  ],
+  lucide: [
+    "https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js",
+    "https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js",
+  ],
+};
+
+const ASSET_RETRY_INTERVAL = 30 * 1000;
+
+let assetRecovery = { running: false, lastAttempt: 0 };
+
+function loadExternalScript(url, timeout = 10000) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    const timer = window.setTimeout(() => {
+      script.remove();
+      reject(new Error(`載入逾時 ${url}`));
+    }, timeout);
+
+    script.src = url;
+    script.async = false;
+    script.onload = () => {
+      window.clearTimeout(timer);
+      resolve(url);
+    };
+    script.onerror = () => {
+      window.clearTimeout(timer);
+      script.remove();
+      reject(new Error(`無法載入 ${url}`));
+    };
+    document.head.append(script);
+  });
+}
+
+async function loadFirstAvailableScript(urls, isReady) {
+  for (const url of urls) {
+    if (isReady?.()) return true;
+    try {
+      await loadExternalScript(url);
+      return true;
+    } catch {
+      // 換下一個來源再試。
+    }
+  }
+  return isReady?.() ?? false;
+}
+
+function hasUnrenderedIcons() {
+  return Boolean(document.querySelector("i[data-lucide]"));
+}
+
+async function ensureThirdPartyAssets({ force = false } = {}) {
+  const needsLeaflet = !window.L;
+  const needsIcons = !window.lucide;
+
+  if (!needsLeaflet && !needsIcons) {
+    if (hasUnrenderedIcons()) renderIcons();
+    return;
+  }
+
+  const now = Date.now();
+  if (!force && now - assetRecovery.lastAttempt < ASSET_RETRY_INTERVAL) return;
+  if (assetRecovery.running) return;
+
+  assetRecovery = { running: true, lastAttempt: now };
+
+  try {
+    if (needsLeaflet) {
+      const leafletLoaded = await loadFirstAvailableScript(
+        THIRD_PARTY_FALLBACKS.leaflet,
+        () => Boolean(window.L),
+      );
+      if (leafletLoaded) {
+        await loadFirstAvailableScript(
+          THIRD_PARTY_FALLBACKS.markercluster,
+          () => Boolean(window.L?.markerClusterGroup),
+        );
+      }
+    }
+
+    if (needsIcons) {
+      await loadFirstAvailableScript(
+        THIRD_PARTY_FALLBACKS.lucide,
+        () => Boolean(window.lucide),
+      );
+    }
+
+    renderIcons();
+
+    // Leaflet 遲到時，地圖會顯示備用訊息，這裡重新繪製一次。
+    if (window.L && !state.map && state.data) renderAll();
+  } finally {
+    assetRecovery.running = false;
+  }
+}
+
+function setupAssetRecovery() {
+  const retry = () => {
+    if (!window.L || !window.lucide) ensureThirdPartyAssets();
+  };
+
+  window.addEventListener("online", retry);
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) retry();
+  });
+}
+
 function registerServiceWorker() {
   if (!("serviceWorker" in window.navigator)) return;
   if (!/^https?:$/.test(window.location.protocol)) return;
@@ -1549,7 +1667,9 @@ function bindEvents() {
 async function initialize() {
   bindEvents();
   setupInstallPrompt();
+  setupAssetRecovery();
   registerServiceWorker();
+  ensureThirdPartyAssets({ force: true });
   const times = defaultSimulationTimes();
   state.comparison.entry = times.entry;
   state.comparison.exit = times.exit;

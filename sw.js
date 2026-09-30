@@ -3,13 +3,13 @@
  * 讓網站可以安裝到手機桌面，並在離線時仍能開啟。
  */
 
-const VERSION = "1";
+const VERSION = "2";
 const SHELL_CACHE = `carpark-shell-${VERSION}`;
 const DATA_CACHE = `carpark-data-${VERSION}`;
 const CDN_CACHE = `carpark-cdn-${VERSION}`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, DATA_CACHE, CDN_CACHE]);
 
-const NAVIGATION_TIMEOUT = 6000;
+const NETWORK_TIMEOUT = 8000;
 
 const SHELL_ASSETS = [
   "./",
@@ -25,6 +25,16 @@ const SHELL_ASSETS = [
   "./icons/apple-touch-icon.png",
 ];
 
+// 第三方圖示及地圖程式庫：安裝時先抓一份，手機桌面版第一次開、甚至離線開都有圖示。
+const CDN_ASSETS = [
+  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+  "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css",
+  "https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css",
+  "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js",
+  "https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js",
+];
+
 const CDN_HOSTS = new Set([
   "unpkg.com",
   "cdn.jsdelivr.net",
@@ -37,10 +47,8 @@ const INDEX_KEY = new URL("./index.html", self.registration.scope).href;
 self.addEventListener("install", (event) => {
   event.waitUntil(
     (async () => {
-      const cache = await caches.open(SHELL_CACHE);
-      await Promise.allSettled(
-        SHELL_ASSETS.map((asset) => cache.add(new Request(asset, { cache: "reload" }))),
-      );
+      await precacheShell();
+      await precacheCdnAssets();
       await self.skipWaiting();
     })(),
   );
@@ -85,15 +93,39 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Leaflet 及 Lucide 由 CDN 載入，快取一份以便離線開啟。
+  // Leaflet 及 Lucide 由 CDN 載入，這裡會保存一份，離線時亦能使用。
   if (url.protocol === "https:" && CDN_HOSTS.has(url.hostname)) {
     event.respondWith(staleWhileRevalidate(event, CDN_CACHE));
   }
 });
 
+async function precacheShell() {
+  const cache = await caches.open(SHELL_CACHE);
+  await Promise.allSettled(
+    SHELL_ASSETS.map((asset) => cache.add(new Request(asset, { cache: "reload" }))),
+  );
+}
+
+async function precacheCdnAssets() {
+  const cache = await caches.open(CDN_CACHE);
+  await Promise.allSettled(
+    CDN_ASSETS.map(async (asset) => {
+      try {
+        if (await cache.match(asset)) return;
+        const response = await fetch(
+          new Request(asset, { mode: "no-cors", cache: "reload", credentials: "omit" }),
+        );
+        if (isCacheable(response)) await cache.put(asset, response);
+      } catch {
+        // 抓不到就等下一次連線時再經 staleWhileRevalidate 補上。
+      }
+    }),
+  );
+}
+
 async function handleNavigation(event) {
   try {
-    const response = await fetchWithTimeout(event.request, NAVIGATION_TIMEOUT);
+    const response = await fetchWithTimeout(event.request, NETWORK_TIMEOUT);
     if (!response || response.status >= 400) throw new Error("bad response");
     await putInCache(SHELL_CACHE, INDEX_KEY, response.clone());
     return response;
@@ -107,14 +139,15 @@ async function handleNavigation(event) {
 
 async function networkFirst(event, cacheName, key) {
   const cacheKey = key || event.request;
+
   try {
-    const response = await fetchWithTimeout(event.request, NAVIGATION_TIMEOUT);
+    const response = await fetchWithTimeout(event.request, NETWORK_TIMEOUT);
     if (!response) throw new Error("offline");
-    if (response.type === "opaque" || response.status === 200) {
-      await putInCache(cacheName, cacheKey, response.clone());
-    }
-    if (response.status >= 400 && response.type !== "opaque") {
+    if (response.status >= 400 && !isCacheable(response)) {
       throw new Error(`status ${response.status}`);
+    }
+    if (isCacheable(response)) {
+      await putInCache(cacheName, cacheKey, response.clone());
     }
     return response;
   } catch {
@@ -127,12 +160,13 @@ async function networkFirst(event, cacheName, key) {
 async function staleWhileRevalidate(event, cacheName) {
   const { request } = event;
   const cached = await matchCache(cacheName, request);
+
   const revalidate = fetch(request)
-    .then((response) => {
-      if (response.type === "opaque" || response.status === 200) {
-        return putInCache(cacheName, request, response.clone());
+    .then(async (response) => {
+      if (isCacheable(response)) {
+        await putInCache(cacheName, request, response.clone());
       }
-      return null;
+      return response;
     })
     .catch(() => null);
 
@@ -141,9 +175,14 @@ async function staleWhileRevalidate(event, cacheName) {
     return cached;
   }
 
+  // 注意：一定要回傳未交給 cache.put 的原物件，否則部分瀏覽器會回傳已消耗的回應。
   const response = await revalidate;
   if (response) return response;
   throw new Error("no cached response");
+}
+
+function isCacheable(response) {
+  return response.type === "opaque" || response.status === 200;
 }
 
 async function putInCache(cacheName, key, response) {
@@ -151,9 +190,8 @@ async function putInCache(cacheName, key, response) {
     const cache = await caches.open(cacheName);
     await cache.put(key, response);
   } catch {
-    // 配額或不可快取的回應（例如 opaque redirect）忽略即可。
+    // 配額不足或不可快取的回應（例如 opaque redirect）忽略即可。
   }
-  return response;
 }
 
 async function matchCache(cacheName, key) {
